@@ -1,0 +1,32 @@
+package practical5;
+public class Driver6 {
+
+    public static void main(String[] args) {
+
+        Shape[] shapes = {
+            new Circle(5),
+            new Rectangle(10, 5),
+            new Triangle(8, 6),
+            new Circle(3)
+        };
+
+        double total = 0;
+        double largest = 0;
+
+        for (Shape s : shapes) {
+
+            double a = s.area();
+
+            System.out.println("Area: " + a);
+
+            total += a;
+
+            if (a > largest) {
+                largest = a;
+            }
+        }
+
+        System.out.println("Total Area: " + total);
+        System.out.println("Largest Area: " + largest);
+    }
+}

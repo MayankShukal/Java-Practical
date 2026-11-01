@@ -1,0 +1,20 @@
+FOLDER TREE REPORT
+
+File Name: file1.txt
+Size: ... bytes
+Modified: 2026-11-01T...
+
+File Name: file2.txt
+Size: ... bytes
+Modified: 2026-11-01T...
+
+File Name: notes.txt
+Size: ... bytes
+Modified: 2026-11-01T...
+
+File Name: assignment.txt
+Size: ... bytes
+Modified: 2026-11-01T...
+
+TOTAL FILES: 4
+TOTAL SIZE: ... bytes
